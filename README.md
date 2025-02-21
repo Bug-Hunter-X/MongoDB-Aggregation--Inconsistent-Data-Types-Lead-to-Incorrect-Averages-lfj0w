@@ -1,0 +1,3 @@
+# MongoDB Aggregation Bug: Inconsistent Data Types
+
+This repository demonstrates a common error in MongoDB aggregation pipelines: using operators like `$avg` on fields with inconsistent data types.  The `bug.js` file showcases the faulty aggregation code. The `bugSolution.js` file provides a corrected version that handles inconsistent data types to produce accurate results. This can easily lead to incorrect analysis and decisions based on flawed aggregate data. This is common where data is ingested from multiple sources.
